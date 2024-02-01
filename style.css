@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4188fa;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.307);
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 4px 8px;
+}
+
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.header-bottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom-right {
+    display: flex;
+    align-items: center;
+    transform: rotate(270deg);
+}
+
+.me {
+    display: flex;
+    background-color: #1f67ed;
+    justify-content: flex-end;
+}
+
+
+.them {
+    background-color: #ddd;
+}
+
+
+.message-row {
+    display: flex;
+}
+.right{
+    justify-content: flex-end;
+}
+
+.text-meesage {
+    padding: 5px 15px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    max-width: 350px;
+}
