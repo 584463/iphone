@@ -79,3 +79,14 @@ header {
     border-radius: 20px;
     max-width: 350px;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #ddd;
+    width: 50px;
+}
+
+.keyboard {
+    padding: 50PX;
+}
